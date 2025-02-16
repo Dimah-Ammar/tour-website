@@ -1,0 +1,39 @@
+.included{
+    justify-content: center;
+    padding: 12rem 5rem 4rem;
+   background-color:rgba(255, 228, 196, 0.667);
+   max-width: 6000px;
+   align-items: center;
+}  
+.included h2{
+    font-size: 4rem;
+    font-family: Gill Sans;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.table{
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    border-spacing: 20px 10px;
+    margin: 0 auto;
+}
+td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    text-align: start;
+}
+@media (max-width: 768px) {
+    
+    .included h2{
+        font-size: 3rem;
+    }
+    
+    td{
+        padding: 8px;
+        font-size: 20px;
+    }
+   
+      
+    }

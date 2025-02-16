@@ -1,0 +1,149 @@
+.hardrock-section{
+    justify-content: center;
+    padding: 12rem 5rem 4rem;
+   background-color:rgba(255, 228, 196, 0.667);
+   max-width: 6000px;
+  }
+  .hardrock-section h1{
+   margin-top: 2rem;
+   font-size: 5rem;
+   font-family: Cambria;
+   text-align:center;
+  }
+  .meta-h-info{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    color: gray;
+    font-size: 2rem;
+    justify-content: center;
+  }
+  .hardrock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12rem 5rem 4rem;
+   color: white;
+   
+  
+  }
+  
+.hardrock-section p{
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    color: rgba(0, 0, 0, 0.603);
+    text-align: center;
+}
+.ima1{
+    width: 30rem;
+    border-radius: 5px;
+    height: auto;
+    max-width: 70rem;
+}
+.image-rows{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap: 2px;
+    row-gap: 2px;
+    max-width: 300px;
+}
+.image-rows .ima2{
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 18rem;
+    margin-top: 20px;
+    max-width: 60rem;
+    
+}
+.image-rows .ima3{
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 18rem;
+    margin-top: 20px;
+    max-width: 60rem;
+
+}
+.image-rows .ima4{
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 18rem;
+    margin-top: 15px;
+    max-width: 60rem;
+
+}
+.image-rows .ima5{
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 18rem;
+    max-width: 60rem;
+
+}
+
+@media (max-width: 768px) {
+
+     
+      .hardrock-section h1{
+       font-size: 3rem;
+       text-align:center;
+      }
+      .meta-h-info{
+        font-size: 10px;
+      }
+      .hardrock{
+        display: flex;
+        flex-direction: column;
+      
+      }
+    .ima1{
+        width: 20rem;
+        border-radius: 5px;
+        height: auto;
+        max-width: 50rem;
+    }
+    .image-rows{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        column-gap: 1px;
+        row-gap: 1px;
+    }
+    .image-rows .ima2{
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        width: 12rem;
+        margin-top: 20px;
+        max-width: 50rem;
+    }
+    .image-rows .ima3{
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        width: 12rem;
+        margin-top: 20px;
+        max-width: 50rem;
+    
+    }
+    .image-rows .ima4{
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        width: 12rem;
+        margin-top: 5px;
+        max-width: 50rem;
+    
+    }
+    .image-rows .ima5{
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        width: 12rem;
+        max-width: 50rem;
+    }
+    .hardrock-section p{
+        font-size: 1rem;
+    }
+}

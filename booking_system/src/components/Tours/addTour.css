@@ -1,0 +1,103 @@
+.form-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 60px;*/
+    background-color: white;
+  }
+  /*.form-section img{
+    width: 50%;
+    border-radius: 10px;
+    height: auto;
+    margin-left: -10px;
+    margin-right: 20px;
+    margin-top: 5rem;
+  }*/
+  .form-wrapper{
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-top: 100px;
+    flex: 1 1 400px;
+  max-width: 600px;
+  }
+  .form-wrapper h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: Cambria;
+    text-align: center;
+}
+
+  .form-wrapper input,
+  .form-wrapper select {
+    
+    width: 70%;
+    padding:15px;
+    margin: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+  }
+  .bookingForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-book {
+    padding: 0.5rem 1rem;
+    background-color:rgb(172, 34, 40);
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 2rem auto 0;
+    display: block;
+  }
+  .form-image {
+    flex: 1 1 400px;
+    max-width: 600px;
+    text-align: center;
+  }
+ .form-image img{
+  max-width: 200%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+  @media (max-width: 768px) {
+   
+      .Booking-form{
+        background-color:rgba(255, 228, 196, 0.667);
+        max-width: 6000px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 8px;
+    }
+    .form-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /*margin-bottom: 60px;*/
+        background-color: white;
+      }
+      .form-section img{
+        width: 50%;
+        border-radius: 10px;
+        height: auto;
+        margin-left: -10px;
+        margin-right: 20px;
+        margin-top: 100px;
+      }
+      .form-wrapper{
+    margin-top: -10rem;
+  }
+  .form-image{
+    max-width: 100%;
+
+  }
+     
+    }
+    
+    

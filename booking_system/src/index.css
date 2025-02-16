@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    background-image: url('https://thumbs.dreamstime.com/b/abstract-vector-background-blue-green-transparent-waved-lines-brochure-website-flyer-design-blue-green-smoke-wave-abstract-144754013.jpg?w=768');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    max-width: 6000px;
+    /*background-color: #111;*/
+  }
